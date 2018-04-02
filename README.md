@@ -5,17 +5,17 @@
 
 ### If you don't install `ku` on your path, here's a way to run the functions directly in a terminal.
 
-To experiment in a terminal, run thus:
+To experiment in a terminal, inside the top directory (with this README) run thus:
 `python - create -n XFL`
 
-    # inside CLI
+    # Then do this to run the program inside the CLI.
     from pycoin.cmds.ku import create_parser, ku
     parser = create_parser()
     ku(parser.parse_args(), parser)
 
 For usage:
 `python - --help`
-... and then run the "inside CLI" block from above.
+... and then run the "inside the CLI" block from above.
 
 ---
 
