@@ -3,7 +3,13 @@
 
 ... with added Florincoin
 
-### If you don't install `ku` on your path, here's a way to run the functions directly in a terminal.
+### Install a working version with this code (recommended).
+
+- `workon pycoin` # which requires virtualenvwrapper... optional, but a nice workflow if you don't want it installed globally
+- `python setup.py install` # or `develop` if you do development
+- `ku create -n XFL`
+
+### Here's a hare-brained way to run the functions directly in a terminal.
 
 To experiment in a terminal, inside the top directory (with this README) run thus:
 `python - create -n XFL`
